@@ -1,0 +1,16 @@
+package controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+@RestController
+public class HelloWorldController {
+	private static String nom = "UNKNOWN";
+	
+	@GetMapping(value="UNKNOWN")
+	public static String StringSaluda() {
+		return "Hola"+nom+". Estàs executant un projecte Maven.";
+	}
+	
+
+}

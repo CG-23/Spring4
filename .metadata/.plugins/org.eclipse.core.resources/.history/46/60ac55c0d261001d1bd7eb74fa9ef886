@@ -1,0 +1,15 @@
+package cat.itacademy.barcelonactiva.cognoms.nom.s04.t01.n01.S04T01N01CarlosGimeno;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import controllers.HelloWorldController;
+
+@SpringBootApplication
+public class S04T01N01CarlosGimenoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(S04T01N01CarlosGimenoApplication.class, args);
+	}
+
+}

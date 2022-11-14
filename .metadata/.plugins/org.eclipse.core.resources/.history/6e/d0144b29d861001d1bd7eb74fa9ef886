@@ -1,0 +1,13 @@
+package cat.itacademy.barcelonactiva.cognoms.nom.s04.t01.n01.S04T01N01CarlosGimeno;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+public class HelloWorldController {
+	
+	@GetMapping("/StringSaluda")
+	public String StringSaluda(@RequestParam(value ="nom", defaultValue = "UNKNOWN")String nom){
+		return "Hola "+nom+". Estàs executant un projecte Maven.";
+	}
+
+}
