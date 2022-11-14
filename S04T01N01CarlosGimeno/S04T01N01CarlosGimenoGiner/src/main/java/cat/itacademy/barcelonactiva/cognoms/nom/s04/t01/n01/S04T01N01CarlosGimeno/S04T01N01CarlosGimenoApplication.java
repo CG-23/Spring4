@@ -1,7 +1,5 @@
 package cat.itacademy.barcelonactiva.cognoms.nom.s04.t01.n01.S04T01N01CarlosGimeno;
 
-import java.util.Optional;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
