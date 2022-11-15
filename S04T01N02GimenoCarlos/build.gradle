@@ -4,7 +4,7 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
-group = 'cat.itacademy.barcelonactiva.cognoms.nom.s04.t01.n02'
+group = 'cat.itacademy.barcelonactiva.gimeno.carlos.s04.t01.n02'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
